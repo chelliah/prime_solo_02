@@ -42,7 +42,7 @@ position = document.getElementById('content');
 for(var i = 0; i < array.length; i++){
 	array[i] = calculateSTI(array[i]); //FIRST BUG FOUND : calculate STI array puts the array [arrayAtticus, arrayJem, arrayBoo, arrayScout] as its input, where we actually want to index through each of the arrays inside the variable array
  	newEl = document.createElement('li');
-	newText = document.createTextNode(array[i]);
+	newText = document.createTextNode(array[i].join(", "));
 	newEl.appendChild(newText);
 	position.appendChild(newEl);
 }

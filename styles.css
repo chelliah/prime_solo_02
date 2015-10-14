@@ -1,0 +1,13 @@
+ul {
+	background: #00FFFF;
+	border-radius: 5px;
+	list-style: none;
+	font-family: helvetica, sans-serif;
+	line-height: 125%;
+	padding: 10px;
+	display:inline-block;
+}
+
+ul li {
+	padding: 0.5em 1em;
+}
